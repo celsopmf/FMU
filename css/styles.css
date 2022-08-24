@@ -62,7 +62,8 @@ h3 {
 
 h4 {
 	color: #A1171C;
-	font: 600 1.5rem/2.125rem "Poppins", sans-serif;
+	/* font: 600 1.5rem/2.125rem "Poppins", sans-serif; */
+	font: 600 2rem "Poppins", sans-serif;
 }
 
 h5 {
@@ -807,6 +808,23 @@ input[type='checkbox'] {
 	border-radius: 10px;
 }
 
+.basic-4ex {
+	padding-top: 4rem;
+}
+
+
+.basic-4ex .fas {
+	margin-bottom: 1.5rem;
+	color: #026cfe;
+	font-size: 3.25rem;
+}
+
+.basic-4ex .text-box {
+	margin-bottom: 3rem;
+	padding: 2.5rem 1rem 1.125rem 1rem;
+	border-radius: 10px;
+}
+
 
 /*****************/
 /*     About     */
@@ -996,6 +1014,13 @@ a:hover.back-to-top {
 	background-color: #026cfe; 
 }
 
+/*************************************************/
+/*  Milan add-ons								 */
+/*************************************************/
+
+.bigfont {
+	font-size: 80px;
+}
 
 /*************************/
 /*     Media Queries     */
