@@ -23,7 +23,7 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds, headings text - navy blue #1b1e7b OLDEN MILAN MUDOU PRA #A1171C
+- Backgrounds, headings text - navy blue #1b1e7b OLDEN Mr M MUDOU PRA #A1171C
 - Backgrounds - light gray #f2f3fd
 - Buttons, icons - blue #026cfe
 - Body text - dark gray #6b747b
@@ -63,6 +63,7 @@ h4 {
 	color: #A1171C;
 	/* font: 600 1.5rem/2.125rem "Poppins", sans-serif; */
 	font: 600 2rem "Poppins", sans-serif;
+	text-align: center;
 }
 
 h5 {
@@ -120,7 +121,8 @@ a:hover {
 }
 
 .bg-gray {
-	background-color: #f2f3fd;
+	background-color: #FDE9D8;
+	/* background-color: #f2f3fd; CHANGED Mr M*/
 }
 
 .frame-decoration {
@@ -434,8 +436,8 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 150px;
-	height: 24px;
+    width: 79px;
+	height: 36px;
 }
 
 .navbar .logo-text {
@@ -1013,36 +1015,15 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #026cfe; 
+	background-color: #ed832b; 
 }
 
 /*************************************************/
-/*  Milan add-ons								 */
+/*  Mr M add-ons								 */
 /*************************************************/
 
-.bullet-list li {
-	list-style: none;
-	list-style-image: none;
-	background: url(../images/red-better.png) no-repeat;
-	background-size: 1.4em;
-	padding-left: 2em;
-	padding-bottom: .5em;
-}
-
-.subtitle-red {
-	font-size: 1.2rem;
-	font-weight: 700;
-	color: #A1171C;
-}
-
-.text-red-rem {
-	font-size: 1rem;
-	color: #A1171C;
-}
-
-.text-black-rem {
-	font-size: 1rem;
-	color: black;
+.bigfont {
+	font-size: 80px;
 }
 
 
@@ -1170,7 +1151,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header {
 		padding-top: 10rem;
-		padding-bottom: 19rem;
+		/* padding-bottom: 19rem; REMOVED Mr M*/
 	}
 
 	.header .text-container {
@@ -1269,7 +1250,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header {
 		padding-top: 12rem;
-		padding-bottom: 22rem;
+		/* padding-bottom: 22rem; REMOVED Mr M */
 	}
 
 	.header .text-container {
