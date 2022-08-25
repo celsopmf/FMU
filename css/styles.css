@@ -1031,17 +1031,18 @@ a:hover.back-to-top {
 }
 
 .subtitle-red {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	color: #A1171C;
 }
 
-.text-red {
+.text-red-rem {
+	font-size: 1rem;
 	color: #A1171C;
 }
 
 .text-black-rem {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	color: black;
 }
 
