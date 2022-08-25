@@ -2,7 +2,6 @@
 
 /*****************************************
 Table Of Contents:
-
 - General Styles
 - Navigation
 - Header
@@ -142,7 +141,8 @@ a:hover {
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
 	border: 1px solid #026cfe;
 	border-radius: 32px;
-	background-color: #026cfe;
+	/* border: 1px solid #026cfe; OLDEN */
+	background-color: #A1171C;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -473,10 +473,12 @@ input[type='checkbox'] {
 	margin-bottom: 0.5rem;
 }
 
+
+
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #CBDFE2;
+	color: #F49E4C;
 	/* color: #c5c3f0; OLDEN */
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -1018,9 +1020,31 @@ a:hover.back-to-top {
 /*  Milan add-ons								 */
 /*************************************************/
 
-.bigfont {
-	font-size: 80px;
+.bullet-list li {
+	list-style: none;
+	list-style-image: none;
+	background: url(../images/red-better.png) no-repeat;
+	background-size: 1.4em;
+	padding-left: 2em;
+	padding-bottom: .5em;
 }
+
+.subtitle-red {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #A1171C;
+}
+
+.text-red-rem {
+	font-size: 1rem;
+	color: #A1171C;
+}
+
+.text-black-rem {
+	font-size: 1rem;
+	color: black;
+}
+
 
 /*************************/
 /*     Media Queries     */
